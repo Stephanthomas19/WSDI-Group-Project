@@ -1,0 +1,188 @@
+body
+{
+     overflow-y: hidden;
+}
+
+.general
+{
+    border:1px solid #707070;
+    border-top:none;
+    border-left:none;
+    height:70px;
+    width:470px;  
+    padding: 0px;  
+    margin-top:-10px;
+    margin-left:-10px;
+}
+
+.notepad
+{
+    height:70px;
+    width:70px;
+    margin-top: 10px;
+    margin-left:60px;
+    margin-bottom:15px;
+    height:50px;
+    width:50px;
+}
+
+.notes
+{
+    margin-left: 10px;
+    height:50px;
+    width:50px;
+    margin-bottom:15px;
+}
+
+.files
+{
+    margin-top: 10px;
+    margin-left:60px;
+    margin-bottom:15px;
+    height:50px;
+    width:50px;
+}
+
+.medicalFiles
+{
+    margin-left: 10px;
+    height:50px;
+    width:100px;
+    margin-bottom:15px;
+}
+
+.container
+{
+    /* border:1px solid black; */
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.schedule
+{
+    /* border:1px solid black; */
+    margin-top:30px;
+    margin-left:80px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width:400px
+}
+
+.calendarHeading{
+    /* border:1px solid black; */
+    height:70px;
+    width:140px; 
+    margin-left:128px;  
+}
+
+.calendar
+{
+    /* border:1px solid black; */
+    height:300px;
+    width:300px;
+    margin-top:-10px;
+    margin-left: 50px;
+}
+
+.appointments
+{
+    height:65px;
+    width:130px;
+    margin-left:260px;
+    margin-top:-30px;
+    /* border:1px solid black; */
+}
+
+.details
+{
+    border:1px solid gray;
+    height:420px;
+    width:380px;
+    position: absolute;
+    right: 150px;
+    background-color:rgba(255,255,255,0.5);
+    border-radius:30px;
+}
+
+.userName
+{
+    font-family: "Pacifico", Satisfy;
+    font-style:regular;
+    font-size:25px;
+    text-align:center;
+}
+
+.person
+{
+    border: 1px solid gray;
+    border-radius:200px;
+    height: 110px;
+    width: 110px;
+    margin-left:138px;
+    background-color:white;
+}
+
+.personIcon
+{
+    height:60px;
+    width:60px;
+    margin-left:25px;
+    margin-top:20px;
+}
+
+.actionButt
+{
+    display: inline-block;
+    padding: 10px 30px;
+    font-family: "Pacifico", Satisfy;
+    font-style: regular;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color:white;
+    border: none;
+    border-radius: 30px;
+    width:250px;
+    height:40px;
+    margin-top:10px;
+    margin-left:80px;
+    border: 1px solid gray;
+    text-align: left;
+    
+}
+
+.avoIcon
+{
+    height: 50px;
+    margin-bottom:10px;
+}
+
+.medical
+{
+    margin-top:3px;
+    height: 50px;
+}
+
+.committed
+{
+    height:50px;
+    margin-left:310px;
+}
+
+.footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 1279px;
+    height: 48px;  
+    border: 1px solid gray;
+    margin-left:-8px;
+    border-bottom:none;
+  
+}

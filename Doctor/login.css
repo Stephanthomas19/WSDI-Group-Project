@@ -1,0 +1,132 @@
+body
+{
+    background:url("../Images/overlay.png"),url("../Images/waitingRoom.jpg");
+    background-size: cover;  
+    margin: 0px; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(12, 12, 12);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 45px;
+    text-decoration: none;
+    font-family:Pacifico, Satisfy ;
+    font-size: 30px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgba(76, 76, 228, 0.507);   
+    color: black
+  }
+  
+
+
+h1
+{
+    font-family:  yellowtail, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    color:white;
+}
+
+h2
+{
+    font-family:  yellowtail, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    color:white;
+}
+
+.errMsg
+{
+    color:red;
+    font-family:  yellowtail, sans-serif;
+    text-align: center;
+    margin: 20px 150px; 
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+.loginFormCont{
+    /* background-color: rgba(80, 27, 90, 0.884); */
+    background-color: rgba(76, 76, 228, 0.507);
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 370px;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.credentials
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    height:50px;
+    width: 300px;
+    margin: 20px 150px; 
+    background-color: rgba(255, 255, 255, 0.849);
+    border: none;
+    font-family:  yellowtail, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.credentials:hover{
+    background-color: black;
+    color: white;
+    
+}
+
+.signInButt
+{
+    margin-left: 235px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius:10px;
+    color: black;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family:  yellowtail, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #ffffffa4;
+    
+}
+
+.signInButt:hover{
+    background-color: black;
+    color: white;
+    
+}
+
+
+
+
+
+

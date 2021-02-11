@@ -1,0 +1,83 @@
+body
+{ 
+  background:url("../Images/overlay.png"),url("../Images/ms.jpg");
+  background-size: cover;
+  margin: 0px;
+}
+
+
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+  
+li
+{
+  float: left;
+}
+
+li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 45px;
+  text-decoration: none;
+  font-family:Pacifico, Satisfy ;
+  font-size: 30px;
+}
+
+li a:hover:not(.active) 
+{
+  background-color: rgba(23, 78, 151, 0.747);     
+  color: black
+}
+
+.active
+{
+  background-color: rgba(23, 78, 151, 0.747);  
+}
+
+.active:hover
+{
+  color: black;
+}
+
+.container
+{
+  border-radius: 10px;
+  margin: 100px 125px;
+  width: 1100px;
+  height: 600px;
+  background-color: rgba(255, 255, 255, 0.219);  
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.445);
+}
+
+.title
+{
+  font-family: Satisfy;
+  color: white;
+  text-align: center;
+  padding-top: 20px;  
+}
+
+.subTitle
+{
+  font-family: Satisfy;
+  color: white;
+  text-align: center;
+  padding:10px;
+}
+
+p
+{
+  font-family: Satisfy;
+  font-style: italic;
+  font-size: 25px;
+  color: white;
+  padding: 25px 20px;
+}  

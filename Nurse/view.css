@@ -1,0 +1,22 @@
+body{
+    background-color: rgba(65, 105, 225, 0.274);
+}
+
+h1{
+    font-family: Satisfy;
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    margin-left: 400px;
+    background-color: rgba(255, 255, 255, 0.664);
+}
+
+tr{
+    border: none;
+}
+
+th{
+    border:none;
+}

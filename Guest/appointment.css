@@ -1,0 +1,138 @@
+
+body
+{
+  background:url("../Images/overlay.png"),url("../Images/corridor.jpg");
+  background-size: cover;
+  margin: 0px;
+}
+
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+  
+li 
+{
+  float: left;
+}
+  
+li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 45px;
+  text-decoration: none;
+  font-family:Pacifico, Satisfy ;
+  font-size: 30px;
+}
+  
+li a:hover:not(.active) 
+{
+  background-color: rgba(87, 238, 243, 0.507);
+  color: black
+}
+  
+.active 
+{
+  background-color: rgba(87, 238, 243, 0.507);
+}
+
+.active:hover
+{
+  color: black;
+}
+
+.appMade
+{
+  color: white;
+  text-align: center;
+  padding: 15px 45px;
+  text-decoration: none;
+  font-family:Pacifico, Satisfy ;
+  font-size: 30px;
+}
+.signUpMsgCont
+{
+  background-color: rgba(87, 238, 243, 0.507);
+  margin-top: -150px;
+  margin-left: 370px;
+  width: 600px;
+  height: 500px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.greeting
+{
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+  font-family:  yellowtail, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  padding-top: 15px;
+  
+}
+
+.detailMsg
+{
+  margin-top: -25px;
+  text-align: center;
+  color: white;
+  font-family:  yellowtail, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  
+}
+
+.credentials
+{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  height:50px;
+  width: 300px;
+  margin: 20px 150px; 
+  background-color: rgba(190, 184, 184, 0.842);
+  border: none;
+}
+
+
+.registerButt
+{
+  margin: 20px 230px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius:10px;
+  color: black;
+  padding: 8px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family:  yellowtail, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px #33417e;
+}
+
+
+.errMsg
+{
+  color: red;
+  font-family:  yellowtail, sans-serif;
+  text-align: center;
+
+}
+
+
+

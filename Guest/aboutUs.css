@@ -1,0 +1,139 @@
+body
+{   
+    background:url("../Images/overlay.png"),url("../Images/corridor.jpg");
+    background-size: cover;
+    margin: 0px;
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li 
+{
+    float: left;
+}
+  
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 45px;
+    text-decoration: none;
+    font-family:Pacifico, Satisfy ;
+    font-size: 30px;
+}
+  
+li a:hover:not(.active) 
+{
+    background-color: rgba(255, 255, 255, 0.219);   
+    color: black
+}
+  
+.active 
+{
+    background-color: rgba(255, 255, 255, 0.219);  
+}
+
+.active:hover
+{
+    color: black;
+}
+
+.container
+{
+    border-radius: 10px;
+    margin: 100px 125px;
+    width: 1100px;
+    height: 460px;
+    background-color: rgba(255, 255, 255, 0.219);  
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.445);
+}
+
+.title
+{
+    text-align: center;
+    padding-top: 20px;
+}
+
+p
+{
+    font-family: Satisfy;
+    font-style: italic;
+    font-size: 25px;
+    color: white;
+    padding: 25px 20px;
+
+}
+
+.teamMem
+{
+    height: 500px;
+    width: 1300px;
+    font-family:Pacifico;
+    margin: 20px 25px;
+}
+
+.team
+{
+    margin-top: 55px;
+    text-align: center;
+    color: white;
+}
+
+.box 
+{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    justify-content: space-between;
+    padding: 0px 100px ;
+}
+
+h1
+{
+   color: white; 
+   font-family: satisfy;
+}
+
+h2
+{
+    color: white;
+    padding:2px;
+    font-size: 18px;
+}
+
+.teamLabel
+{
+    font-family: Georgia, 'Times New Roman', Times;
+    font-style: italic;
+    color: white;
+    font-size: 18px;
+}
+
+.boxes
+{
+    border: 1px solid grey;
+    background-color: rgba(143, 138, 138, 0.226);
+    font-family: Georgia, 'Times New Roman', Times;
+    font-style: italic;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    height: 270px;
+    width:205px;
+}
+
+.teamImg
+{
+    height:60px;
+    width:60px;
+}
